@@ -69,7 +69,7 @@ const daysOfWeek = [
 ];
 
 labelDate.textContent = `${daysOfWeek[day]}-${months[month]}-${year}`;
-time.textContent = `-${hour} : ${min}`;
+time.textContent = `-${hour} : ${min} ${hour >= 12 ? "PM" : "AM"}`;
 
 // Mobile Dropdown menu functionality
 const nav_dropDown = document.querySelector(".nav-dropdown");
