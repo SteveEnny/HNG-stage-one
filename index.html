@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <!-- Destop Naviation -->
+      <div><img src="img/HNG logo.png" alt="" /></div>
+      <ul class="nav-links">
+        <li class="nav-link" data-testid="hngLink">
+          <a href="http://hng.tech/learn">HNG Learn/Tech</a>
+        </li>
+        <li class="nav-link" data-testid="keywordLink">
+          <a href="http://keyword.dog/">Keyword</a>
+        </li>
+        <li class="nav-link" data-testid="scrapeanywebLink">
+          <a href="http://scrapeanyweb.site/">Scrapeanyweb</a>
+        </li>
+      </ul>
+      <div class="profile">
+        <div class="profile-detail">
+          <span class="profile-name" data-testid="slackDisplayName"
+            >SteveEnny</span
+          >
+          <span class="profile-email" data-testid="slackEmail"
+            >omotosoeniola191@gmail.com</span
+          >
+        </div>
+        <div class="profile-img">
+          <img
+            src="img/profile picture3.png"
+            data-testid="slackProfilePicture"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <nav class="mobile-nav">
+        <ul class="nav-links-mobile">
+          <li class="nav-link" data-testid="hngLink">
+            <a href="http://hng.tech/learn">HNG Learn/Tech</a>
+          </li>
+          <li class="nav-link" data-testid="keywordLink">
+            <a href="http://keyword.dog/">Keyword</a>
+          </li>
+          <li class="nav-link" data-testid="scrapeanywebLink">
+            <a href="http://scrapeanyweb.site/">Scrapeanyweb</a>
+          </li>
+          <div class="mobile-profile">
+            <div class="profile-detail">
+              <span class="profile-name" data-testid="slackDisplayName"
+                >SteveEnny</span
+              >
+              <span class="profile-email" data-testid="slackEmail"
+                >omotosoeniola191@gmail.com</span
+              >
+            </div>
+            <div class="profile-img">
+              <img
+                src="img/profile picture3.png"
+                data-testid="slackProfilePicture"
+                alt=""
+              />
+            </div>
+          </div>
+        </ul>
+      </nav>
+      <div class="nav-dropdown">
+        <img src="img/nav-dropdown.png" alt="nav-dropdown" />
+      </div>
+    </nav>
+
+    <!-- Date & Time  -->
+    <div class="date-section">
+      <div class="date" data-testid="currentDay">
+        <span class="date-day" data-testid="currentDay"></span>
+        <span class="time" data-testid="currentTimeUTC"></span>
+      </div>
+    </div>
+
+    <!-- Outine Goals -->
+    <main>
+      <header class="goal-title">
+        <div class="header-title">
+          <h2>My Goals In Two (2) Years Time</h2>
+          <span class="toggle-list">
+            <img class="down-arrowdown" src="img/down-arrowdown.png" alt="" />
+            <img class="down-arrowup" src="img/down-arrowup.png" alt="" />
+          </span>
+        </div>
+      </header>
+
+      <ul class="outline-lists">
+        <li class="outline-list" data-active="true">
+          <div class="check-list">
+            <img src="img/radio (1).png" alt="" class="uncheck" />
+          </div>
+          <div class="goals-outline">
+            <h3>Learn more about web-developments (Backend technologies)</h3>
+            <ul class="goal-lists show-goals">
+              <li>
+                Explore server-side technologies like Node.js, Django, or Ruby
+                on Rails
+              </li>
+              <li>Building rest Api's with server-side technologies</li>
+              <li>Build a potifilio website to show your works</li>
+            </ul>
+          </div>
+        </li>
+        <li class="outline-list">
+          <div class="check-list">
+            <img src="img/radio (1).png" alt="" class="uncheck" />
+          </div>
+          <div class="goals-outline" data-active="false">
+            <h3>Gain onsite experience i.e working on real life prject</h3>
+            <ul class="goal-lists">
+              <li>Applying for interships</li>
+              <li>Contributiing to open source</li>
+              <li>Networking with other developers</li>
+            </ul>
+          </div>
+        </li>
+        <li class="outline-list">
+          <div class="check-list">
+            <img src="img/radio (1).png" alt="" class="uncheck" />
+          </div>
+          <div class="goals-outline" data-active="false">
+            <h3>Apply to Job roles</h3>
+            <ul class="goal-lists">
+              <li>Create cover letter, Resumes for job applications</li>
+              <li>Create account on various job platform like linkedIn</li>
+            </ul>
+          </div>
+        </li>
+        <li class="outline-list">
+          <div class="check-list">
+            <img src="img/radio (1).png" alt="" class="uncheck" />
+          </div>
+          <div class="goals-outline" data-active="false">
+            <h3>Expand your programming skillset</h3>
+            <ul class="goal-lists">
+              <li>Unlock the power of diverse programming languages.</li>
+              <li>Become a polyglot programmer!</li>
+              <li>Work on differnt task with this languages and framework</li>
+            </ul>
+          </div>
+        </li>
+        <li class="outline-list">
+          <div class="check-list">
+            <img src="img/radio (1).png" alt="" class="uncheck" />
+          </div>
+          <div class="goals-outline" data-active="false">
+            <h3>Expand your programming skillset</h3>
+            <ul class="goal-lists">
+              <li>Unlock the power of diverse programming languages.</li>
+              <li>Become a polyglot programmer!</li>
+              <li>Work on different task with this languages and framework</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
